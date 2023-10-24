@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px ;
+    max-width: 1140px;
+    height: 100%;
+}
+
+.header{
+    margin: 15px 0;
+}
+
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hrader-logo a{
+    color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+
+
+.btn{
+    color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+background: none;
+}
+
+
+
+.btn1 {
+    color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 40px;
+border: 2px solid #FFF;
+}
+
+
+
+@media screen and (max-width:450px){
+    .header-content{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .hrader-logo{
+        display: none;
+    }
+}
+
+
