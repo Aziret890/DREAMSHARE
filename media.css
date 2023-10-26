@@ -1,0 +1,533 @@
+@media screen and (max-width: 768px){
+    .header-content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .blocks{
+        display: flex;
+        justify-content: center;
+        /* gap: 10px; */
+    }
+    .hero {
+        max-width: 800px;
+    }
+    .img img{
+        width: 220px;
+    }
+
+    .ctopka2 {
+        display: flex;
+        justify-content: center;
+        /* gap: 2.5pc; */
+    }
+    .text-prof p {
+        color: #666;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 18px;
+    }
+    .ctopka2 {
+        display: flex;
+        justify-content: center;
+        /* gap: 2.5pc; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: baseline;
+    }
+    .w3text{
+        display: flex;
+        justify-content: center;
+    }
+    .iimmgg img{
+        max-width: 220px;
+        height: 290px;
+    }
+    .iimmgg7 img{
+        max-width: 465px;
+        border-radius: 5px;
+        height: 290px;
+
+    }
+    .iimmgg6 img{
+        max-width: 465px;
+        border-radius: 5px;
+        height: 290px;
+    }
+    .fl3 {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        /* gap: 21px; */
+    }
+    .fl2 {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        /* gap: 21px; */
+    }
+    .grid1{
+        gap: 10px;
+    }
+    .footer-nav {
+        margin-top: 5pc;
+        display: flex;
+        justify-content: center;
+        gap: 5pc;
+    }
+
+    
+}
+
+@media screen and (max-width: 480px){
+    *{
+        text-align: center;
+    }
+    .hrader-logo{
+        display: none;
+    }
+    .blocks{
+        display: block;
+        /* margin-top: 10px; */
+        /* gap: 10px; */
+        text-align: center;
+
+        /* gap: 10px; */
+    }
+    .hero {
+        max-width: 800px;
+    }
+    .hero-title{
+        font-size: 30px;
+    }
+    .hero-text{
+        font-size: 20px;
+    }
+    .dddd{
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .img{
+        margin-bottom: 10px;
+    }
+    .img img{
+        /* margin-bottom: 10pc; */
+        width: 300px;
+    }
+
+    .ctopka2 {
+        display: flex;
+        justify-content: center;
+        /* gap: 2.5pc; */
+    }
+    .text-prof p {
+        color: #666;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 18px;
+    }
+    .ctopka2 {
+        display: flex;
+        justify-content: center;
+        /* gap: 2.5pc; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: baseline;
+    }
+    .w3text{
+        display: flex;
+        justify-content: center;
+    }
+    .iimmgg img{
+        max-width: 450px;
+        height: 348px;
+    }
+    .iimmgg7 img{
+        margin-left: 30px;
+        max-width: 340px;
+        border-radius: 5px;
+        height: 350px;
+
+    }
+    .iimmgg6 img{
+        width: 340px ;
+        border-radius: 5px;
+        height: 350px;
+    }
+    .fl3 {
+        margin-top: 100px;
+        display: block;
+        justify-content: center;
+        gap: 4pc;
+        /* gap: 21px; */
+    }
+    .fl2 {
+        margin-top: 100px;
+        margin-top: 0px;
+        display: block;
+        justify-content: center;
+        gap: 15px;
+        /* gap: 21px; */
+    }
+    .glavn{
+        margin-bottom: 5pc;
+
+    }
+    .grid1{
+        display: block;
+        gap: 10px;
+    }
+    .footer-nav {
+        margin-top: 5pc;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 10pc; */
+    }
+
+    .grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fl2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .fl3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50;
+    }
+    .logo-end{
+        margin-bottom: 20px;
+    }
+    .company h6{
+        margin: 0;
+    }
+    .partner {
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+    .logo-end2{
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    *{
+        text-align: center;
+    }
+    .hrader-logo{
+        display: none;
+    }
+    .blocks{
+        display: block;
+        /* margin-top: 10px; */
+        /* gap: 10px; */
+        text-align: center;
+
+        /* gap: 10px; */
+    }
+    .hero {
+        max-width: 800px;
+    }
+    .hero-title{
+        font-size: 30px;
+    }
+    .hero-text{
+        font-size: 20px;
+    }
+    .dddd{
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .img{
+        margin-bottom: 10px;
+    }
+    .img img{
+        /* margin-bottom: 10pc; */
+        width: 300px;
+    }
+
+    .ctopka2 {
+        display: flex;
+        justify-content: center;
+        /* gap: 2.5pc; */
+    }
+    .text-prof p {
+        color: #666;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 18px;
+    }
+    .ctopka2 {
+        display: flex;
+        justify-content: center;
+        /* gap: 2.5pc; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: baseline;
+    }
+    .w3text{
+        display: flex;
+        justify-content: center;
+    }
+    .iimmgg img{
+        max-width: 300px;
+        height: 300px;
+    }
+    .iimmgg7 img{
+        margin-left: -10px;
+        max-width: 300px;
+        border-radius: 5px;
+        height: 300px;
+
+    }
+    .iimmgg6 img{
+        width: 300px ;
+        border-radius: 5px;
+        height: 300px;
+    }
+    .fl3 {
+        margin-top: 100px;
+        display: block;
+        justify-content: center;
+        gap: 4pc;
+        /* gap: 21px; */
+    }
+    .fl2 {
+        margin-top: 100px;
+        margin-top: 0px;
+        display: block;
+        justify-content: center;
+        gap: 15px;
+        /* gap: 21px; */
+    }
+    .glavn{
+        margin-bottom: 5pc;
+
+    }
+    .grid1{
+        display: block;
+        gap: 10px;
+    }
+    .footer-nav {
+        margin-top: 5pc;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 10pc; */
+    }
+
+    .grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fl2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .fl3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50;
+    }
+    .logo-end{
+        margin-bottom: 20px;
+    }
+    .company h6{
+        margin: 0;
+    }
+    .partner {
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+    .logo-end2{
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width: 320px){
+    *{
+        text-align: center;
+    }
+    .hrader-logo{
+        display: none;
+    }
+    .blocks{
+        display: block;
+        /* margin-top: 10px; */
+        /* gap: 10px; */
+        text-align: center;
+
+        /* gap: 10px; */
+    }
+    .hero {
+        max-width: 800px;
+    }
+    .hero-title{
+        font-size: 30px;
+    }
+    .hero-text{
+        font-size: 20px;
+    }
+    .dddd{
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .img{
+        margin-bottom: 10px;
+    }
+    .img img{
+        /* margin-bottom: 10pc; */
+        width: 300px;
+    }
+
+    .ctopka2 {
+        display: flex;
+        justify-content: center;
+        /* gap: 2.5pc; */
+    }
+    .text-prof p {
+        color: #666;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 18px;
+    }
+    .ctopka2 {
+        display: flex;
+        justify-content: center;
+        /* gap: 2.5pc; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: baseline;
+    }
+    .w3text{
+        display: flex;
+        justify-content: center;
+    }
+    .iimmgg img{
+        max-width: 300px;
+        height: 300px;
+    }
+    .iimmgg7 img{
+        margin-left: -10px;
+        max-width: 300px;
+        border-radius: 5px;
+        height: 300px;
+
+    }
+    .iimmgg6 img{
+        width: 300px ;
+        border-radius: 5px;
+        height: 300px;
+    }
+    .fl3 {
+        margin-top: 100px;
+        display: block;
+        justify-content: center;
+        gap: 4pc;
+        /* gap: 21px; */
+    }
+    .fl2 {
+        margin-top: 100px;
+        margin-top: 0px;
+        display: block;
+        justify-content: center;
+        gap: 15px;
+        /* gap: 21px; */
+    }
+    .glavn{
+        margin-bottom: 5pc;
+
+    }
+    .grid1{
+        display: block;
+        gap: 10px;
+    }
+    .footer-nav {
+        margin-top: 5pc;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 10pc; */
+    }
+
+    .grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fl2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .fl3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50;
+    }
+    .logo-end{
+        margin-bottom: 20px;
+    }
+    .company h6{
+        margin: 0;
+    }
+    .partner {
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+    .logo-end2{
+        margin-bottom: 20px;
+    }
+
+}
+
+

@@ -14,7 +14,7 @@ body{
 .container{
     margin: 0 auto;
     padding: 0 15px ;
-    max-width: 1140px;
+    max-width: 940px;
     height: 100%;
 }
 
@@ -26,6 +26,7 @@ body{
 .header-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -54,7 +55,7 @@ background: none;
 
 
 .btn1 {
-    color: #000;
+color: #000;
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
@@ -70,24 +71,12 @@ border: 2px solid #FFF;
 
 
 
-@media screen and (max-width:450px){
-    .header-content{
-        display: flex;
-        justify-content: space-around;
-        
-    }
-
-    .hrader-logo{
-        display: none;
-    }
-}
-
 
 .hero{
     background: url();
     /* opacity: 0.8; */
 background: url(./img/Background.jpg) center/cover;
-max-width: 100%;
+/* max-width: 100%; */
 height: 700px;
 }
 
@@ -146,37 +135,447 @@ border: none;
 
 
 
-@media screen and (max-width: 450px){
-    .hero-text{
-        max-width: 280px;
-        color: #F7F3F2;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 24.5px; /* 136.111% */
-    }
-    .hero-title{
-        color: #FFF;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        max-width: 272px;
-    }
-    .hero-btn{
-        width: 280px;
-        height: 40px;
-        flex-shrink: 0;
-        color: #FFF;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
+
+/* -----------w1----------------- */
+
+
+.w1{
+    margin-top: 5pc;
 }
+
+
+.img{
+    position: relative;
+    max-width: 300px;
+    height: 400px;
+}
+
+.img img{
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.img-imfo{
+    max-width: 100%;
+    position: absolute;
+    bottom: 20px;
+    padding: 0 20px;
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-imfo button{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 70px;
+height: 20px;
+flex-shrink: 0;
+
+border-radius: 40px;
+background: #FF4E50;
+border: none;
+}
+
+.img-imfo h2{
+    max-width: 250px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 100% */
+}
+
+.img-imfo p{
+    color: #E3E3E3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 16px; /* 114.286% */
+}
+
+
+.textw1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.textw1 h1{
+    color: #444;
+text-align: center;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+/* --------------w2--------------- */
+
+
+
+
+
+
+
+.w2{
+    margin-top: 10pc;
+}
+
+.ctopka2{
+    display: flex;
+    justify-content: center;
+    gap: 6pc;
+}
+
+.prof1{
+    text-align: center;
+}
+
+.text-prof h4{
+    text-align: center;
+    color: #444;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.prof1{
+    max-width: 225px;
+    height: 210px;
+}
+
+.text-prof p{
+    color: #666;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 18px; /* 128.571% */
+}
+
+
+.w2button button{
+    color: #FF4E50;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+max-width: 180px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 40px;
+border: 2px solid #FF4E50;
+background: #FFF;
+
+}
+
+
+.w2button{
+    margin-top: 5pc;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------w3------------------ */
+
+
+.w3{
+
+    margin-top: 5pc;
+
+}
+
+.grid1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.glavn{
+    max-width: 300px;
+    height: 310px;
+
+}
+
+.iimmgg{
+    max-width: 300px;
+    height: 310px;
+    position: relative;
+}
+
+.g1-info{
+    position: absolute;
+    max-width: 100%;
+    height: 125%;
+}
+
+.fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: block;
+
+}
+
+.fl2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+
+.fl3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.f1-info2{
+   max-width: 620px; 
+   height: 100%;
+}
+
+.fl1{
+    height: 125%;
+    max-width: 100%;
+}
+
+
+
+
+
+.glavn6{
+    max-width: 620px;
+    height: 310px;
+
+}
+
+
+.iimmgg6{
+    max-width: 620px;
+    height: 310px;
+    position: relative;
+}
+
+.g1-info6{
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.glavn7{
+    max-width: 620px;
+    height: 310px;
+
+}
+
+
+.iimmgg7{
+    max-width: 620px;
+    height: 310px;
+    position: relative;
+}
+
+.g1-info7{
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.g1-info7{
+    color:#FFF;
+}
+
+
+.g1-info6{
+    color:#FFF;
+}
+
+
+.g1-info{
+    color:#FFF;
+}
+
+
+/* ------------w4--------------------- */
+
+
+.w4{
+    margin-top: 5pc;
+}
+
+.w4text{
+    display: block;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+}
+
+
+.w4text h1{
+    color: #444;
+text-align: center;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.w4text p{
+    padding-top: 30px;
+    color: #666;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 14px; /* 77.778% */
+}
+
+.input {
+    
+}
+
+.input input{
+    margin-top: 25px;
+    height: 35px;
+    margin-right: 10px;
+
+}
+
+.input button{
+    width: 172.125px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 40px;
+background: #FF4E50;
+border: none;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+
+
+/* ----------------------footer---------------- */
+
+
+hr{
+    margin-top: 5pc;
+    background: #FF4E50;
+    height: 2.5px;
+    border: none;
+}
+
+
+.footer-nav{
+    margin-top: 5pc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company{
+    display: block;
+    text-align: start;
+}
+
+.company nav{
+    list-style: none;
+}
+
+.company a{
+    text-decoration: none;
+    color: #999;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px; /* 185.714% */
+}
+
+.logo-end a{
+    color: #FF4E50;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+
+.company h6{
+    margin-top: 0;
+    color: #444;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.partner a{
+    text-decoration: none;
+    color: #444;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
